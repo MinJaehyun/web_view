@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-final homeUrl = Uri.parse('https://parkjh7764.tistory.com');
+final homeUrl = Uri.parse('https://www.notion.so/8a839ad1cac74978bfd43ba496c6f165');
+// final homeUrl = Uri.parse('https://separate-aluminum-150.notion.site/8a839ad1cac74978bfd43ba496c6f165?pvs=4');
+// final homeUrl = Uri.parse('https://naver.com');
 
 class HomeScreen extends StatelessWidget {
   WebViewController? controller = WebViewController()
